@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="card">
+            <div id="title"><h1>Quiz</h1></div>
+            <hr>
+            <hr>
+            <p id="question" oncopy="return false" oncut="return false" onpaste="return false"></p>
+            <div class="buttons">
+                <button class="btn" id="btn0"><span id="choice0"></span></button> 
+                <button class="btn" id="btn1"><span id="choice1"></span></button> 
+                <button class="btn" id="btn2"><span id="choice2"></span></button> 
+                <button class="btn" id="btn3"><span id="choice3"></span></button>
+            </div>
+            <hr>
+            <footer>
+                <p id="progress"> Question x of y</p>
+            </footer>
+
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+<script src="question.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

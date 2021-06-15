@@ -1,0 +1,72 @@
+body {
+  padding-top: 50px;
+  padding-left: 30px;
+  background: rgb(141, 30, 22);
+}
+.container {
+  padding: 5px;
+  background: rgb(182, 169, 169);
+}
+#card {
+  background: rgb(63, 86, 136);
+}
+h1 {
+  text-align: center;
+}
+#title {
+  border: 3px solid black;
+  border-radius: 30px;
+  width: 30%;
+  position: relative;
+  left: 35%;
+}
+#question {
+  background: rgb(42, 19, 105);
+  height: 100px;
+  width: 100%;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+#question::selection {
+  height: 100px;
+  width: 100%;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.btn {
+  width: 250px;
+  height: 50px;
+  width: 500px;
+  margin-right: 200px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  background-color: rgba(82, 98, 245, 0.411);
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  width: 250px;
+  height: 50px;
+  width: 500px;
+  margin-right: 200px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  background-color: rgb(143, 154, 255);
+  border-radius: 40px;
+  font-weight: bolder;
+}
+#choices {
+  margin-left: 20px;
+}
+footer {
+  background-color: chocolate;
+  height: 40px;
+  text-align: center;
+  font-size: x-large;
+  width: 100%;
+}
